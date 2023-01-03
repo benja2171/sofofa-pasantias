@@ -31,7 +31,7 @@ else: # si no imprimira en la terminal RestaMulSuma
     print ("su digito verificador es:" + str(RestaMulSuma))
 
 def crearTxt():
-    archivo.write(str(num1) + str(num2) + str(num3) + str(num4) + str(num5) +  str(num6) + str(num7) + str(num8) +"-"+ str(RestaMulSuma))
+    archivo.write(str(num1) + str(num2) + str(num3) + str(num4) + str(num5) +  str(num6) + str(num7) + str(num8) +"-"+ str(RestaMulSuma) + " \ ")
     archivo.close()
-archivo = open("Rut.txt","w")
+archivo = open("Rut.txt","a")
 crearTxt()
